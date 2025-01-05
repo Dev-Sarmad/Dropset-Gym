@@ -4,6 +4,6 @@
 
 @layer base {
     .main-container{
-        @apply container max-w-6xl mx-auto
+        @apply container max-w-6xl mx-auto;
     }
 }

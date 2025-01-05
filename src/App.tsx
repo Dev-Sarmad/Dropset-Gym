@@ -1,5 +1,6 @@
 import BentoGrid from "./components/BentoGrid";
 import Details from "./components/Details";
+import Featured from "./components/Featured";
 import Heading from "./components/Heading";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
@@ -18,6 +19,7 @@ function App() {
       <Text text="by design" direction="right" />
       <BentoGrid />
       <Details />
+      <Featured />
     </>
   );
 }

@@ -2,7 +2,7 @@ import Pointer from "./Pointer";
 function Hero() {
   return (
     <div className="main-container mt-10">
-      <div>
+      <div className="p-4">
         <img src="badge.svg" alt="" />
       </div>
       <div className="relative flex justify-around items-center mt-10">
