@@ -4,6 +4,7 @@ import Featured from "./components/Featured";
 import Heading from "./components/Heading";
 import Hero from "./components/Hero";
 import Navigation from "./components/Navigation";
+import Testimonials from "./components/Testimonials";
 import Text from "./components/Text";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <BentoGrid />
       <Details />
       <Featured />
+      <Testimonials />
     </>
   );
 }

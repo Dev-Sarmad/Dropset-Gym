@@ -39,7 +39,10 @@ function Details() {
         </div>
       </div>
       <div className="mt-10">
-        <Paragraph paragraph={landingPageParagraphs.paragraph2} />
+        <Paragraph
+          paragraph={landingPageParagraphs.paragraph2}
+          className="main-container p-3 mt-20 text-left text-2xl md:pr-28 "
+        />
       </div>
     </div>
   );

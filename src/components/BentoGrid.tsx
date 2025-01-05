@@ -65,7 +65,10 @@ function BentoGrid() {
           </div>
         </div>
       </div>
-      <Paragraph paragraph={landingPageParagraphs.paragraph1} />
+      <Paragraph
+        paragraph={landingPageParagraphs.paragraph1}
+        className="main-container p-3 mt-20 text-left text-2xl md:pr-28 "
+      />
     </div>
   );
 }
