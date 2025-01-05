@@ -8,10 +8,12 @@ function Testimonials() {
     <div className="main-container p-4 mt-20">
       <Heading
         headline="what other people think."
-        className="text-5xl font-bold md:ml-24  "
+        className="text-5xl font-bold md:ml-24 lg:ml-10 xl:text-6xl"
       />
-      <p className="pl-4 text-[#898d9c] md:ml-24">Review from our customers.</p>
-      <div className=" flex flex-col space-y-3 space-x-0 md:flex-row md:flex-wrap md:justify-around ml-3">
+      <p className="pl-4 text-[#898d9c] md:ml-24 md:text-3xl md:font-semibold lg:ml-10 xl:mr-20 xl:text-4xl">
+        Review from our customers.
+      </p>
+      <div className=" flex flex-col space-y-3 space-x-0 md:flex-row md:flex-wrap md:justify-around ml-3 md:mr-32 md:mt-11">
         {testimonials.map((testimonial, index) => (
           <div className="testimonial p-4 mt-3 md:w-[400px]" key={index}>
             <StarRating stars={testimonial.rating} />

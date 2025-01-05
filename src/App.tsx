@@ -1,4 +1,5 @@
 import BentoGrid from "./components/BentoGrid";
+import CTA from "./components/CTA";
 import Details from "./components/Details";
 import Featured from "./components/Featured";
 import Heading from "./components/Heading";
@@ -22,6 +23,7 @@ function App() {
       <Details />
       <Featured />
       <Testimonials />
+      <CTA />
     </>
   );
 }
