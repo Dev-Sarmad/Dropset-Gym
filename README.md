@@ -1,50 +1,40 @@
-# React + TypeScript + Vite
+# 🏋️ The Dropset Gym 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern gym landing page designed with React, TypeScript, NextUI, and Framer Motion. The site features sleek UI components, dynamic animations, and smooth transitions, delivering an engaging user experience while showcasing gym app services and promotions.
 
-Currently, two official plugins are available:
+## ✨ Technologies 
+- `ReactJS`
+- `Typescript`
+- `Tailwind CSS`
+- `Next UI`
+- `Framer motion`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- Fully responsive layout, optimized for desktops, tablets, and mobile devices.
+- Framer Motion animations for  section transitions.
+- Text animations using the whileInView in framer motion.
+- The resuable components
+- Eye-catching hero banner with a motivational tagline.
 
-## Expanding the ESLint configuration
+## 💇 Process 
+I was watching a design trends and some websites shown in video were great in UI so I decided to build one of them as it help me learn the new concepts such as how to make the good sleek animations using the framer motions and how and why the reusablity is important in react. First I built the banner which was a text heavy and implemented resusable animation section later on I built the text animation component which was basically a scroll trigger text animation later on to make more look greate in UI I built a bento grid component with the help of  tailwind classes such as col-span and row-span 
+and after that a testimonial and footer component (CTA). To maintain the reusablity I created a constant file which contains the text for paragraphs and testimonials as i can also use in some other sections.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📚 What I Learned
 
-- Configure the top-level `parserOptions` property like this:
+Each part of this project helped me understand more about building responsive animated  react apps , managing complex animations , resuablity , responsive designs and improving user experience , learning new things, and improving my skills for future work.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## 👨‍💻 start the project 
+To run the project in your local environment, follow these steps:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+1. Clone the repository to your local machine.
+2. Navigate to the project directory and run npm install or yarn to install the required dependencies.
+3. Start the project with npm run dev or yarn dev.
+4. Open http://localhost:5173 (or the address displayed in your console) in your web browser to view the application.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📸 Screenshot
+
+
+
+
